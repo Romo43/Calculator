@@ -1,0 +1,37 @@
+
+.calculator{
+    background-color: black;
+}
+input[text]{
+    color: white;
+    background-color: #24283B;
+}
+button{
+    border-radius: 50%;
+    border: 0px;
+    color: black;
+}
+button:hover{
+    color: white;
+}
+.number:hover{
+    background-color: rgb(4, 128, 182);
+}
+.nonumber{
+    background-color: rgb(26, 188, 156);
+}
+.nonumber:hover{
+    background-color: rgb(18, 137, 113);
+}
+.equal{
+    background-color: rgb(217, 58, 55);
+}
+.equal:hover{
+    background-color: rgb(165, 44, 42);
+}
+body{
+    background-color: #24283B;
+}
+h1{
+    color: white;
+}
