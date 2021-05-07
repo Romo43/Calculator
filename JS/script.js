@@ -1,12 +1,12 @@
-const buttons = document.querySelectorAll('button');
-const display = document.querySelector('.display');
+var buttons = document.querySelectorAll('button');
+var display = document.querySelector('.display');
 
 buttons.forEach(function (button){
     button.addEventListener('click', calculate);
 });
 
 function calculate(event){
-    const ClickedButtonValue = event.target.value;
+    var ClickedButtonValue = event.target.value;
         if(ClickedButtonValue === '='){
             if(display !== ''){
                 display.value = eval(display.value);
